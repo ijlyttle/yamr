@@ -1,0 +1,21 @@
+Package: yamr
+Title: Embed a 'Yammer' Item into a Web Page
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Ian",
+           family = "Lyttle",
+           role = c("aut", "cre"),
+           email = "ian.lyttle@se.com",
+           comment = c(ORCID = "0000-0001-9962-4849"))
+Description: If you use Microsoft 'Yammer', you can embed 'Yammer' items into
+ 'web pages you create using 'R Markdown'. For example, if you run a blog 
+ within your institution, and your institution uses 'Yammer', this can be a
+ useful way to embed discussion and comments into your blog posts - while 
+ respecting the IT choices of your institution.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
+Imports: 
+    htmltools
